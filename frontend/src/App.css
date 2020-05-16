@@ -1,0 +1,49 @@
+body{
+  background-color:royalblue;
+  text-align:center;
+}
+.title{
+  font-size: 110px;
+  font-style: italic;
+}
+.questions{
+  color: white;
+  background-color: #2bc7b9;
+  padding: 20px;
+  border: 2px solid white;
+  width: 1200px;
+  margin-left: 90px;
+  font-size: 1.60rem;
+}
+li{
+  color: black;
+  background-color: yellow;
+  padding: 15px;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 20px;
+  border: 2px solid white;
+  width: 110px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+li:hover {
+  background-color: red;
+}
+.time{
+  color: chartreuse;
+  font-size: 50px;
+}
+.score{
+  color: yellow;
+  font-size: 89px;
+}
+input{
+  height: 30px;
+  width: 180px;
+}
+button{
+  height: 40px;
+  width: 110px;
+  font-size: 15px;
+}
